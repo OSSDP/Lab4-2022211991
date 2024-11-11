@@ -22,7 +22,7 @@ public class SolutionTest {
         List<String> expected2 = Collections.singletonList("0.0.0.0");
         assertIterableEquals(expected2, result2);
     }
-
+// 这是一次测试
     @Test
     public void testRestoreIpAddresses3() {
         Solution solution = new Solution();
