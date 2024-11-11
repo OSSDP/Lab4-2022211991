@@ -20,8 +20,15 @@
           <scope>test</scope>
       </dependency>
   </dependencies>
+<<<<<<< HEAD
     <properties>
             <maven.compiler.source>17</maven.compiler.source>
             <maven.compiler.target>17</maven.compiler.target>
     </properties>
+=======
+  <properties>
+          <maven.compiler.source>17</maven.compiler.source>
+          <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+>>>>>>> 6af3ceebadf93441e21fa444ac95f83f34e4d3e8
 </project>
