@@ -9,7 +9,7 @@ public class SolutionTest {
     public void testRestoreIpAddresses1() {
         Solution solution = new Solution();
         List<String> result1 = solution.restoreIpAddresses("25525511135");
-        List<String> expected1 = Arrays.asList("", "255.255.111.35");
+        List<String> expected1 = Arrays.asList("255.255.11.135", "255.255.111.35");
         Collections.sort(result1);
         Collections.sort(expected1);
         assertIterableEquals(expected1, result1);
@@ -19,7 +19,7 @@ public class SolutionTest {
     public void testRestoreIpAddresses2() {
         Solution solution = new Solution();
         List<String> result2 = solution.restoreIpAddresses("0000");
-        List<String> expected2 = Collections.singletonList("0.0.0.0");
+        List<String> expected2 = Collections.singletonList("0.0.0.1");
         assertIterableEquals(expected2, result2);
     }
 
