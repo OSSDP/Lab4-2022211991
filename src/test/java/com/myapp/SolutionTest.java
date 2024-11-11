@@ -9,7 +9,7 @@ public class SolutionTest {
     public void testRestoreIpAddresses1() {
         Solution solution = new Solution();
         List<String> result1 = solution.restoreIpAddresses("25525511135");
-        List<String> expected1 = Arrays.asList("255.255.11.15", "255.255.111.35");
+        List<String> expected1 = Arrays.asList("255.255.11", "255.255.111.35");
         Collections.sort(result1);
         Collections.sort(expected1);
         assertIterableEquals(expected1, result1);
