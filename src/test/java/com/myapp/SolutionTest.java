@@ -19,7 +19,7 @@ public class SolutionTest {
     public void testRestoreIpAddresses2() {
         Solution solution = new Solution();
         List<String> result2 = solution.restoreIpAddresses("0000");
-        List<String> expected2 = Collections.singletonList("0.0.0.1");
+        List<String> expected2 = Collections.singletonList("0.0.0.0");
         assertIterableEquals(expected2, result2);
     }
 
